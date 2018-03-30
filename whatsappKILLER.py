@@ -73,7 +73,7 @@ banner = '''
           ### ###      #############      ### ###
                         
                         VERSION: %s
-                        PROGRAMMER: %godeyes
+                        PROGRAMMER: % ejk fare9&godeyes
 '''%(WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,FAIL,ENDC,WARNING,ENDC,'1.0','eijk & Fare9')            
 
 os.system("clear")
