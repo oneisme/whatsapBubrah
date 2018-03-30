@@ -1,6 +1,6 @@
-echo "Este es el instalador de WhatsappKILLER, pulsa INTRO para continuar"
+echo "Este es el instalador de WhatsapRemux, pulsa INTRO para continuar"
 echo "Asegurate de poder ejecutar comandos como super usuario, y de tener"
-echo "el programa WhatsappKILLER.py en la misma carpeta"
+echo "el programa WhatsapRemux.py en la misma carpeta"
 read
 
 echo "Instalando python2.7"
@@ -12,5 +12,5 @@ echo "Instalando selenium"
 sudo pip install selenium
 echo "...Instalado"
 
-echo "Ejecutando WhatsappKILLER"
-python WhatsappKILLER.py
+echo "Ejecutando WhatsapRemux"
+python WhatsapRemux.py
