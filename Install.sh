@@ -12,5 +12,5 @@ echo "Instalando selenium"
 sudo pip install selenium
 echo "...Instalado"
 
-echo "Ejecutando WhatsappKILLER"
+echo "Ejecutando WhatsapRemux"
 python WhatsapRemux.py
