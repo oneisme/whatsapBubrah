@@ -1,6 +1,6 @@
 echo "Este es el instalador de WhatsapRemux, pulsa INTRO para continuar"
 echo "Asegurate de poder ejecutar comandos como super usuario, y de tener"
-echo "el programa WhatsapRemux.py en la misma carpeta"
+echo "el programa WhatsappRemux.py en la misma carpeta"
 read
 
 echo "Instalando python2.7"
@@ -12,5 +12,5 @@ echo "Instalando selenium"
 sudo pip install selenium
 echo "...Instalado"
 
-echo "Ejecutando WhatsapRemux"
-python WhatsapRemux.py
+echo "Ejecutando WhatsappRemux"
+python WhatsappRemux.py
