@@ -72,9 +72,9 @@ print banner
 print bannerP
 
 if lan=='English':
-  print '///WELCOME TO WHATSAP REMUX PRESS ENTER TO CONTINUE\\\\\\'
+  print '///WELCOME TO WHATSAPP REMUX PRESS ENTER TO CONTINUE\\\\\\'
 else:
-  print '///BIENVENIDO A WHATSAP REMUX PRESIONA ENTER PARA CONTINUAR\\\\\\'
+  print '///BIENVENIDO A WHATSAPP REMUX PRESIONA ENTER PARA CONTINUAR\\\\\\'
 
 raw_input()
 
