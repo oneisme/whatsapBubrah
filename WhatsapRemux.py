@@ -28,15 +28,6 @@ WARNING = '\033[93m'
 FAIL    = '\033[91m'
 ENDC    = '\033[0m'
 
-Languages = ['English','Spanish']
-os.system("clear")
-print '¿English/Español?(1/2)'
-seleccion = 0
-while seleccion != 1 and seleccion != 2:
-  seleccion = int(raw_input('>> '))
-
-seleccion = seleccion-1
-lan = Languages[seleccion]
 
 bannerP = '''
             ╦ ╦┬ ┬┌─┐┌┬┐┌─┐┌─┐┌─┐┌─┐  
@@ -81,9 +72,9 @@ print banner
 print bannerP
 
 if lan=='English':
-  print '///WELCOME TO WHATSAPP CRASHER PRESS ENTER TO CONTINUE\\\\\\'
+  print '///WELCOME TO WHATSAP REMUX PRESS ENTER TO CONTINUE\\\\\\'
 else:
-  print '///BIENVENIDO A WHATSAPP CRASHER PRESIONA ENTER PARA CONTINUAR\\\\\\'
+  print '///BIENVENIDO A WHATSAP REMUX PRESIONA ENTER PARA CONTINUAR\\\\\\'
 
 raw_input()
 
