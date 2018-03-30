@@ -1,10 +1,10 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-'''
+
     Programa para abrir whatsapp web, y hacer un buffer overflow, 
     causando un denial of service(DOS).
-'''
+
 
 import selenium
 from selenium import webdriver
@@ -38,13 +38,13 @@ while seleccion != 1 and seleccion != 2:
 seleccion = seleccion-1
 lan = Languages[seleccion]
 
-bannerP = '''
+bannerP = 
             ╦ ╦┬ ┬┌─┐┌┬┐┌─┐┌─┐┌─┐┌─┐  
             ║║║├─┤├─┤ │ └─┐├─┤├─┘├─┘  
-            ╚╩╝┴ ┴┴ ┴ ┴ └─┘┴ ┴┴  ┴ \\   //  
-                     /─┐.--- ┴┴ ╦ ╦   \\ //
-                     ├┬┘|├─║║║ ╦ ╦     //
-                      ┴└─┌─┐┌─.        //\\
+            ╚╩╝┴ ┴┴ ┴ ┴ └─┘┴ ┴┴  ┴ 
+                     ─┐ ┴┴ ╦ ╦   
+                     ├┬┘├─║║║ ╦ ╦     
+                      ┴└─┌─┐┌─        
                         
 banner = 
          ### ###                         ### ###
@@ -73,8 +73,8 @@ banner =
           ### ###      #############      ### ###
                         
                         VERSION: %s
-                        PROGRAMMER: wongNdeso-godeyes.team
-'''%(WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,FAIL,ENDC,WARNING,ENDC,'1.0','eijk & Fare9')            
+                        PROGRAMMER: wongNdeso-godeyes
+%(WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,WARNING,ENDC,FAIL,ENDC,WARNING,ENDC,'1.0','eijk & Fare9')            
 
 os.system("clear")
 print banner
